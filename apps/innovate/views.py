@@ -23,6 +23,11 @@ def about(request):
     return jingo.render(request, 'innovate/about.html')
 
 
+def hatchery(request):
+    """The /hatchery page"""
+    return jingo.render(request, 'innovate/hatchery.html')
+
+
 def handle404(request):
     """Handle 404 responses."""
     return jingo.render(request, 'handlers/404.html', status=404)
