@@ -21,3 +21,11 @@ locale/*
 media/img/uploads/*
 media/uploads/*
 media/js/libs/jquery.isotope.min.js
+
+vendor
+
+ENV/src/django-nose/
+
+ENV/src/test-utils/
+
+src/django/
